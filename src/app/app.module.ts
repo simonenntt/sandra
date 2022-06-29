@@ -8,9 +8,11 @@ import { SwiperModule } from 'swiper/angular';
 import { LayoutModule } from './core/layout/layout.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
+
   
   ],
   imports: [
