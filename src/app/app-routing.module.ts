@@ -7,6 +7,16 @@ const routes: Routes = [
     loadChildren: () =>
       import('src/app/features/home/home.module').then((m) => m.HomeModule),
   },
+  {
+    path: 'sandra',
+    loadChildren: () =>
+      import('src/app/features/sandra/sandra.module').then((m) => m.SandraModule),
+  },
+  {
+    path: 'teams',
+    loadChildren: () =>
+      import('src/app/features/teams/teams.module').then((m) => m.TeamsModule),
+  },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
