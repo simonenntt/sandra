@@ -17,6 +17,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('src/app/features/teams/teams.module').then((m) => m.TeamsModule),
   },
+  {
+    path: 'partners',
+    loadChildren: () =>
+      import('src/app/features/partners/partners.module').then((m) => m.PartnersModule),
+  },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
