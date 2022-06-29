@@ -42,21 +42,21 @@ export class HomeComponent implements OnInit {
       data: {
         datasets: [
           {
-            label: 'Current Vallue',
-            data: [0, 20, 40, 50],
-            backgroundColor: 'rgb(115 185 243 / 65%)',
-            borderColor: '#007ee7',
+            label: 'Produttività senza IA',
+            data: [20, 22, 24, 26],
+            backgroundColor: 'rgb(136 154 171 / 65%)',
+            borderColor: '#83919E',
             fill: true,
           },
           {
-            label: 'Invested Amount',
-            data: [0, 20, 40, 60, 80],
-            backgroundColor: '#47a0e8',
-            borderColor: '#007ee7',
+            label: 'Produttività Con IA',
+            data: [20, 23, 27, 33],
+            backgroundColor: '#FFFF00',
+            borderColor: '#66FF66',
             fill: true,
           },
         ],
-        labels: ['January 2019', 'February 2019', 'March 2019', 'April 2019'],
+        labels: ['2022', '2023', '2024', '2025'],
       },
     });
 
@@ -123,21 +123,15 @@ export class HomeComponent implements OnInit {
    data: {
      datasets: [
        {
-         label: 'Current Vallue',
-         data: [0, 20, 40, 50],
-         backgroundColor: 'rgb(115 185 243 / 65%)',
-         borderColor: '#007ee7',
+         label: 'Investimenti in IA',
+         data: [85.3, 85.3, 204],
+         backgroundColor: '#FFFFCC',
+         borderColor: '#FFFFCC',
          fill: true,
-       },
-       {
-         label: 'Invested Amount',
-         data: [0, 20, 40, 60, 80],
-         backgroundColor: '#47a0e8',
-         borderColor: '#007ee7',
-         fill: true,
-       },
+       }
+       
      ],
-     labels: ['January 2019', 'February 2019', 'March 2019', 'April 2019'],
+     labels: ['Now', '2022', '2025'],
    },
  });
 
