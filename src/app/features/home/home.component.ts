@@ -70,44 +70,31 @@ export class HomeComponent implements OnInit {
       data: {
         datasets: [
           {
-          label: 'First Dataset',
+          label: 'Tasso di crescita annuale',
           data: [{
-            x: 20,
-            y: 30,
+            x: 2021,
+            y: 100,
             r: 15
-          }, {
-            x: 40,
-            y: 10,
-            r: 10
-          }],
-          backgroundColor: 'rgb(255, 99, 132)'
+          },
+          {
+            x: 2022,
+            y: 103.3,
+            r: 20
+          },
+          {
+            x: 2023,
+            y: 110.3,
+            r: 20
+          },
+          {
+            x: 2025,
+            y: 124.5,
+            r: 20
+          }
+        ],
+          backgroundColor: 'rgb(212, 248, 81)'
         },
-        {
-          label: 'second Dataset',
-          data: [{
-            x: 16,
-            y: 17,
-            r: 8
-          }, {
-            x: 29,
-            y: 7,
-            r: 2
-          }],
-          backgroundColor: 'rgb(241, 124, 3)'
-        },
-        {
-          label: 'second Dataset',
-          data: [{
-            x: 33,
-            y: 7,
-            r: 34
-          }, {
-            x: 24,
-            y: 14,
-            r: 21
-          }],
-          backgroundColor: 'rgb(241, 124, 3)'
-        }
+        
       ]
       },
     });
@@ -126,7 +113,7 @@ export class HomeComponent implements OnInit {
          label: 'Investimenti in IA',
          data: [85.3, 85.3, 204],
          backgroundColor: '#FFFFCC',
-         borderColor: '#FFFFCC',
+         borderColor:  'rgb(255, 125, 0)',
          fill: true,
        }
        
