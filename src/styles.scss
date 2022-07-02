@@ -81,6 +81,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     }
   }
   
+  .carousel{
+    object-fit: cover;
+  }
 
   .avatar{
     border-radius: 50%;
