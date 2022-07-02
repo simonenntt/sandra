@@ -92,3 +92,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .avatar{
     border-radius: 50%;
   }
+  #background-video {
+    width: 100vw;
+    height:600px;
+    object-fit: cover;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -100;
+  }
+  .content{
+    position: absolute;
+    top:45%;
+    left: 45%;
+    z-index: 5;
+  }
