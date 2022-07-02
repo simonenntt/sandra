@@ -85,6 +85,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     object-fit: cover;
   }
 
+  .iper-realistic{
+    object-fit:contain ;
+  }
+
   .avatar{
     border-radius: 50%;
   }
